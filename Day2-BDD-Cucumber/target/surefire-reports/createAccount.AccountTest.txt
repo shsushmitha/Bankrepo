@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: createAccount.AccountTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec <<< FAILURE!
-test_customer_with_null(createAccount.AccountTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec <<< FAILURE!
+test_customer_with_null(createAccount.AccountTest)  Time elapsed: 0.016 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: (an instance of org.cap.exception.InvalidCustomer and exception with message a string containing "Sorry! Customer refers Null!")
      but: exception with message a string containing "Sorry! Customer refers Null!" message was "Invalid Customer!"

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: createAccount.TestRunCukes
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.686 sec <<< FAILURE!
+Tests run: 25, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.626 sec <<< FAILURE!
 Then create new Account(Scenario: For valid customer create new Account)  Time elapsed: 0 sec  <<< FAILURE!
 Argument(s) are different! Wanted:
 accountDao.addAccount(
