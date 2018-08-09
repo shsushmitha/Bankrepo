@@ -252,7 +252,6 @@ public void find_account_and_do_withdrawal() throws Throwable {
 		
 		Mockito.verify(accountDao).updateBalance(accountNo, 12000);
 		
-		
 		assertEquals(12000, updatedaccount.getOpeningBalance(),0.0);
 	}
 
